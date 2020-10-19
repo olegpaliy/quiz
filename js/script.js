@@ -41,3 +41,8 @@ arr3.forEach(item => {
   item.job = true;
 })
 console.log(arr3);
+
+let scroll = document.getElementById(`scroll`);
+document.addEventListener(`mousewheel`, (event) => {
+    alert(`don't do this!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`);
+})
